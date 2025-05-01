@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d95e8e9-f41b-4133-b66f-2720ee9049d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Auction.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    <list default="true" id="7d95e8e9-f41b-4133-b66f-2720ee9049d2" name="Changes" comment="Add initial project setup with auction simulation script&#10;&#10;Initialized a new Python project with PyCharm configurations and added a main script for simulating auction strategies. The script allows running multiple simulations to compare bidder strategies and outputs results using data visualization.">
+      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +16,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Avanagi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Avanagi/Auction.git",
+    "accountId": "458f7b0b-146d-44c7-a1c8-027447b52fc4"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 3
 }]]></component>
@@ -60,14 +68,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746108326796</updated>
-      <workItem from="1746108327835" duration="2663000" />
+      <workItem from="1746108327835" duration="5304000" />
     </task>
+    <task id="LOCAL-00001" summary="Add initial project setup with auction simulation script&#10;&#10;Initialized a new Python project with PyCharm configurations and added a main script for simulating auction strategies. The script allows running multiple simulations to compare bidder strategies and outputs results using data visualization.">
+      <option name="closed" value="true" />
+      <created>1746112053044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746112053044</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add initial project setup with auction simulation script&#10;&#10;Initialized a new Python project with PyCharm configurations and added a main script for simulating auction strategies. The script allows running multiple simulations to compare bidder strategies and outputs results using data visualization." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add initial project setup with auction simulation script&#10;&#10;Initialized a new Python project with PyCharm configurations and added a main script for simulating auction strategies. The script allows running multiple simulations to compare bidder strategies and outputs results using data visualization." />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Auction$main.coverage" NAME="main Coverage Results" MODIFIED="1746110481400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Auction$main.coverage" NAME="main Coverage Results" MODIFIED="1746111417307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
