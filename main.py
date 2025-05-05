@@ -20,12 +20,20 @@ def first_price_auction(bids, num_goods):
       p — массив платежей (ставка победителя или 0)
     """
     sorted_indices = np.argsort(bids)[::-1]
+    bids_new = np.sort(bids[sorted_indices])[::-1]
+    bg = bids_new[:num_goods+1]
     winners = sorted_indices[:num_goods]
     x = np.zeros_like(bids)
     p = np.zeros_like(bids, dtype=float)
+    count = 1
+
     for i in winners:
         x[i] = 1
         p[i] = bids[i]
+    for i in winners:
+        if x[i] == 1:
+            p[i] = bg[count]
+            count += 1
     return x, p
 
 def simulate_strategy(v_i, strategy_coef, other_bids, num_goods, i_index):
