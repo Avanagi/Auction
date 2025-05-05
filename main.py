@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import random
 
-NUM_SIMULATIONS = 5000                    # число прогонов
+NUM_SIMULATIONS = 5010                    # число прогонов
 BID_RANGE = (1, 50)                       # диапазон значений ставок и внутренней оценки v_i
 NUM_BIDDERS_RANGE = (15, 50)              # диапазон числа участников в одном аукционе
 GOODS_RANGE = (1, 5)                      # диапазон числа однотипных лотов
